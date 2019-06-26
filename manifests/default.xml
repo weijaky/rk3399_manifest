@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default remote="android-p" revision="refs/tags/android-9.0.0_r33" sync-j="8"/>
+  
+   <!-- remote -->
+  <remote fetch="https://github.com/weijaky/rk3399-android-p.git/" name="android-p"/>
+  
+  <!-- u-boot -->
+  <project groups="pdk" name="platform/u-boot" path="packages/u-boot"/>
+  
+  <!-- recovery -->
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
+  <!-- kernel -->
+  <project groups="pdk" name="platform/kernel" path="kernel"/>
+  
+  <!-- device -->
+  <project groups="pdk" name="platform/device/rockchip" path="device/rockchip"/>
+  <project groups="pdk" name="platform/device/sample" path="device/sample"/>
+  <!-- hardware -->
+  <project groups="pdk" name="platform/hardware" path="hardware"/>
+  <project groups="pdk" name="platform/system" path="packages/system"/>
+  <project groups="pdk" name="platform/vendor" path="packages/vendor"/>
+  
+  <!-- JVM -->
+  <project groups="pdk" name="platform/art" path="art"/>
+  <project groups="pdk" name="platform/dalvik" path="dalvik"/>  
+
+  <!-- build -->
+  <project groups="pdk" name="platform/build" path="build"/>
+  <project groups="pdk" name="platform/prebuilts" path="packages/prebuilts"/>
+
+  <!-- framework -->
+  <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/base" path="frameworks/base" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/compile" path="frameworks/compile" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/data-binding" path="frameworks/data-binding" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/ex" path="frameworks/ex" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/hardware" path="frameworks/hardware" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" revision="cfc8157064b71d1b340621dba3ebb5a372f01c49" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/frameworks/minikin" path="frameworks/minikin"/>
+  <project groups="pdk" name="platform/frameworks/ml" path="frameworks/ml"/>
+  <project groups="pdk" name="platform/frameworks/multidex" path="frameworks/multidex"/>
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native"/>
+  <project groups="pdk" name="platform/frameworks/opt" path="frameworks/opt"/>
+  <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs"/>
+  <project groups="pdk" name="platform/frameworks/support" path="frameworks/support"/>
+  <project groups="pdk" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
+  <!-- external -->
+  <project groups="pdk" name="platform/external" path="external" remote="rk" revision="ac659163730219d1c7ae4efabf1beda2ec7b2bcb" upstream="rk33/mid/9.0/develop"/>
+  
+  <!-- libcore -->
+  <project groups="pdk" name="platform/libcore" path="libcore"/>
+  <project groups="pdk" name="platform/bionic" path="bionic"/>
+  <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd"/>
+  <project groups="pdk" name="platform/libnativehelper" path="libnativehelper
+  <project groups="pdk" name="platform/sdk" path="packages/sdk"/>
+
+
+  <!-- packages -->
+  <project groups="pdk" name="platform/packages/apps" path="packages/apps"/>
+  <project groups="pdk" name="platform/packages/experimental" path="packages/experimental"/>
+  <project groups="pdk" name="platform/packages/inputmethods" path="packages/inputmethods"/>
+  <project groups="pdk" name="platform/packages/providers" path="packages/providers"/>
+  <project groups="pdk" name="platform/packages/screensavers" path="packages/screensavers"/>
+  <project groups="pdk" name="platform/packages/services" path="packages/services"/>
+  <project groups="pdk" name="platform/packages/wallpapers" path="packages/wallpapers"/>
+  
+  <project groups="pdk" name="platform/developers/build" path="developers/build"/>
+  <project groups="pdk" name="platform/developers/demos" path="developers/demos"/>
+  <project groups="pdk" name="platform/development" path="development"/>
+  <project groups="pdk" name="platform/developers/samples" path="developers/samples"/>
+  <project groups="pdk" name="platform/cts" path="cts"/>
+  <project groups="pdk" name="platform/tools" path="packages/tools"/>
+  <project groups="pdk" name="platform/toolchain" path="packages/toolchain"/>
+  <project groups="pdk" name="platform/platform_testing" path="packages/platform_testing"/>
+  <project groups="pdk" name="platform/rkbin" path="packages/rkbin"/>
+  <project groups="pdk" name="platform/rkst" path="packages/rkst"/>
+
+</manifest>
